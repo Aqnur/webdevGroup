@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {Product} from '../product';
 import {PRODUCTS} from '../products';
+import {ProductService} from '../product.service';
+import {MessageService} from '../message.service';
+import {Observable, of} from 'rxjs';
 
 @Component({
   selector: 'app-products',
@@ -9,15 +12,26 @@ import {PRODUCTS} from '../products';
 })
 export class ProductsComponent implements OnInit {
 
-  products = PRODUCTS;
-  selectedProducts: Product;
-  constructor() { }
+  products: Product[];
+  selectedProduct: Product;
+
+  constructor(
+    private productService: ProductService,
+    private messageService: MessageService
+  ) {  }
 
   ngOnInit(): void {
+    this.getProducts();
+  }
+
+  getProducts(): void {
+      this.productService.getProducts()
+        .subscribe(products => this.products = products);
   }
 
   onSelect(product: Product): void {
-    this.selectedProducts = product;
+    this.selectedProduct = product;
+    this.messageService.add(`HeroService: Selected hero id=${product.id}`);
   }
 
 }
