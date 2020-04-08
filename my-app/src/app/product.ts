@@ -8,7 +8,6 @@ export interface Product {
   originalLink:string;
   images:any;
   categoryName:string;
-  view_count:number;
   screen1:string;
   screen2:string;
   screen3:string;

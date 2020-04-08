@@ -1,11 +1,32 @@
 <button id="btn_back" > 
-    <a id="word_back"routerLink="/categories/{{product.categoryId}}"> Назад</a>
+    <a id="word_back"routerLink="/categories/{{product.categoryId}}"> Back</a>
   </button>
 <div class="main_image">
  <img id="product_img" src="{{product.images}}">
 </div>
-<h2 class="product_name">Название: {{product.name}}</h2>
+<div class="product_name">Купить {{product.name}}</div>
+<div class="product_block">
+<h2 class="product_details"> Язык:   </h2>
 
-<h2 class="product_description">Описание: {{product.description}}</h2>
-<button id="btn_buy" (click)="addToCart(product)">Buy</button>
+<h2 class="product_details"> Дата выхода:   </h2>
+<h2 class="product_details"> Издатель:  </h2>
+<h2 class="product_details"> Разработчик:   </h2>
+</div>
+<div class="product_block_2">
+  <h2 class="product_details">{{product.language}} </h2> 
+  <h2 class="product_details">{{product.release}}</h2>
+  <h2 class="product_details"> {{product.publisher}} </h2>
+  <h2 class="product_details">{{product.developer}} </h2>
+  </div>
+  <button id="btn_buy" (click)="addToCart(product)">Buy</button>
+  <div class="gabestore_word">
+    <img id="gabestore_img" src="assets/wordgabestore.png">
+  </div>
+  <h3 id="word_screen">Скриншоты</h3>
+<div id="screen1"> <img id="screen1_img" src="{{product.screen1}}"></div>
+<div id="screen2"> <img id="screen1_img" src="{{product.screen2}}"> </div>
+<div id="screen3"> <img id="screen1_img" src="{{product.screen3}}">  </div>
+<h3 id="word_screen">Описание</h3>
 
+
+<h2 class="product_description">{{product.description}}</h2>
