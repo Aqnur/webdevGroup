@@ -38,7 +38,6 @@ export class ProductdetailsComponent implements OnInit {
   addview(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     this.productService.addview(id)
-    this.product.view_count= this.product.view_count+1;
   }
  
 
