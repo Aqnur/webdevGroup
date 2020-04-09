@@ -11,6 +11,7 @@ export class ProviderService extends MainService {
   constructor(http: HttpClient) {
     super(http);
   }
+ 
 
  
   auth(login: any, pass: any): Promise<IAuthResponse> {

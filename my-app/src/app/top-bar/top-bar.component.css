@@ -26,8 +26,22 @@ can be found in the LICENSE file at http://angular.io/license
    float: left;
     width: 200px;
     height: 20px;
-    margin-left: 70%;
+    margin-left: 30%;
     margin-top: -1cm;
+  }
+  .logout{
+ 
+
+    position: absolute;
+  
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-left: -6.2%;
+    margin-top: -1%;
+    background-color: royalblue;
+    color: white;
+    border-radius: 7px;
   }
   
   .sign_button {
@@ -36,8 +50,8 @@ can be found in the LICENSE file at http://angular.io/license
     width: 65px;
     height: 30px;
     text-align: center;
-    margin-left: 0%;
-    margin-top: 5px;
+    margin-left: 8%;
+    margin-top: 10%;
     background-color: royalblue;
     color: white;
     border-radius: 7px;
@@ -51,3 +65,37 @@ can be found in the LICENSE file at http://angular.io/license
   .sign_button a:hover, .logout a:hover {
     color: black;
   }
+
+  .top {
+    background-color: rgb(255,255,255);
+    width: 100%;
+    display: flex;
+  }
+  .logo_image {
+    margin-top: 5%;
+    margin-left: 30%;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box; /*рассчет ширины элемента*/
+    justify-content: start;
+  }
+/* Fancy Button */
+.fancy-button {
+  background-color: white;
+  color: #916dd5;
+  display: flex;
+  
+}
+
+.fancy-button i.material-icons {
+  color: #916dd5;
+  padding-right: 5px;
+  justify-content: end;
+
+}
+.cart{
+  margin-top: -3%;
+  position: absolute;
+  margin-left: 90%;
+
+}

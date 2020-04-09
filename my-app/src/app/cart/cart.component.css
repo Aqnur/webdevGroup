@@ -1,7 +1,10 @@
 #btn_clear{
     position: absolute;
- margin-left: 2%;
- margin-top: -0.5%;
+ margin-left: 4%;
+ margin-top: -1.8%;
  height: 4%;
+  width: 3%;
+ padding-left: 3px;
+  border-radius: 5px;
   
 }

@@ -1,6 +1,5 @@
 <h3>Cart</h3>
 <p>
-  <a routerLink="/shipping">Shipping     Prices</a>
   <button id="btn_clear" (click)="clearCart()">Clear</button>
 </p>
 
@@ -10,16 +9,3 @@
  
 </div>
 
-<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
-
-  <div>
-    <label for="name">
-      Name
-    </label>
-    <input id="name" type="text" formControlName="name">
-  </div>
-
-  
-  <button class="button" type="submit">Change Name</button>
-
-</form>

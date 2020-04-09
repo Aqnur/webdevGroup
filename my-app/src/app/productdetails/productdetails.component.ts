@@ -30,6 +30,10 @@ export class ProductdetailsComponent implements OnInit {
       window.alert('Your product has been added to the cart!');
     }
   ngOnInit(): void {
+    const token = localStorage.getItem('token');
+    if (token) {
+      this.isLogged = true;
+    }
     this.getProduct();
     this.addview();
  
