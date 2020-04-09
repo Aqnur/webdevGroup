@@ -5,3 +5,49 @@ Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */
+.login {
+    width: 70%;
+    height: 100%;
+    float: left;
+  }
+  
+  .sign_up {
+    margin-left: 130px;
+    font-size: 11px;
+    color: black;
+  }
+  
+  .sign_up:hover {
+    color: #000;
+  }
+  
+  .sign {
+    position: relative;
+   float: left;
+    width: 200px;
+    height: 20px;
+    margin-left: 70%;
+    margin-top: -1cm;
+  }
+  
+  .sign_button {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 5px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .sign_button a, .logout a {
+    color: black;
+    font-size: 14px;
+  }
+  
+  .sign_button a:hover, .logout a:hover {
+    color: black;
+  }

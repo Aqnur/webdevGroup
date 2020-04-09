@@ -2,6 +2,23 @@
   <h1>GabeStore</h1>
 </a>
 
+<div class="sign" *ngIf="!isLogged">
+  <div class="sign_button">
+    <a href="/login">Log in</a>
+  </div>
+  <div class="sign_button">
+    <a href="/signup">Sign up</a>
+  </div>
+
+</div>
+
+<div class="sign_out" *ngIf="isLogged">
+  <div class="logout">
+    <a href="/" (click)="logout()">Log out</a>
+  </div>
+</div>
+
+
 <a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
 
 <!-- 

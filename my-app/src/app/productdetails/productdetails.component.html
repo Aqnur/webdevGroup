@@ -18,7 +18,9 @@
   <h2 class="product_details"> {{product.publisher}} </h2>
   <h2 class="product_details">{{product.developer}} </h2>
   </div>
+  <div *ngIf="isLogged" class="button_buy">
   <button id="btn_buy" (click)="addToCart(product)">Buy</button>
+  </div>
   <div class="gabestore_word">
     <img id="gabestore_img" src="assets/wordgabestore.png">
   </div>
