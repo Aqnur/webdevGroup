@@ -1,7 +1,25 @@
+.top {
+    background-color: rgb(255,255,255);
+    width: 100%;
+    display: flex;
+  }
+  .logo_image {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box; /*рассчет ширины элемента*/
+    justify-content: start;
+  }
+/* Fancy Button */
+.fancy-button {
+  background-color: white;
+  color: #916dd5;
+  display: flex;
+  
+}
 
+.fancy-button i.material-icons {
+  color: #916dd5;
+  padding-right: 5px;
+  justify-content: end;
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
+}

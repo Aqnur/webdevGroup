@@ -1,3 +1,7 @@
+
+li {
+  display: inline-flex;
+}
 img {
   width:150px;
   height: 180px;
@@ -26,22 +30,17 @@ padding-left: 2%;
 margin-top: 1%;
 
 }
-button{
-  background-color: orange;
-  
-}
-
 nav a {
   padding: 5px 10px;
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #eee;
+  background-color: rgb(240, 220, 108);
   border-radius: 4px;
   width: 100%;
 }
 nav a:visited, a:link {
-  color: #607D8B;
+  color: #000000;
 }
 nav a:hover {
   color: #039be5;
