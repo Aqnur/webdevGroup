@@ -1,7 +1,18 @@
 #btn_clear{
-    position: absolute;
- margin-left: 2%;
- margin-top: -0.5%;
- height: 4%;
-  
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -2%;
+  height: 4%;
+  width: 3%;
+  padding-left: 3px;
+  border-radius: 5px;
+}
+
+h3{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.cart-item{
+  margin-top: 40px;
 }

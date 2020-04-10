@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ProductsComponent } from './products/products.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import {CategoriesComponent} from './categories/categories.component'
 import {CartComponent} from './cart/cart.component'
 import { ShippingComponent } from './shipping/shipping.component';
 
 const routes: Routes = [
+  {path: 'login', component: LoginComponent },
+  {path: 'signup', component: SignupComponent },
   {path: 'categories', redirectTo: '/categories', pathMatch: 'full'},
   {path: 'categories', component:CategoriesComponent},
   {path: 'categories/:id', component: ProductsComponent },

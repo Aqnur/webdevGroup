@@ -1,8 +1,9 @@
 <ul class="categories-style">
+  <li>
     <nav *ngFor="let category of categories">
-      <a routerLink="/categories/{{category.id}}">
-        {{category.name}}  
-      </a>
+    <a routerLink="/categories/{{category.id}}">
+      {{category.name}}  
+    </a>
     </nav>
+  </li>
 </ul>
-

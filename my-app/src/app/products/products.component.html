@@ -1,3 +1,5 @@
+<div class="body_color">
+
 
   <div  id="products_word" *ngFor="let product of products">
     {{product.categoryName}}
@@ -16,14 +18,16 @@
 </div>
 
 
-<div id="price">{{product.price}}</div> 
+<button id="price">{{product.price}}</button> 
 
-<button> 
-  <a href = "https://api.whatsapp.com/send?phone=77079344712&text={{product.name     }}        {{product.originalLink}}"  style="color: white"> Share</a>
+<button id="share_button"> 
+  <a  href = "https://api.whatsapp.com/send?phone=77079344712&text={{product.name     }}        {{product.originalLink}}"  style="color: black"> Share</a>
 
 </button>
 </div>
 
 
 </div>  
+</div>
+
 </div>
