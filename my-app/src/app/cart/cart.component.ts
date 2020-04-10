@@ -8,14 +8,13 @@ import { FormBuilder } from '@angular/forms';
   styleUrls: ['./cart.component.css']
 })
 export class CartComponent implements OnInit {
- clearCart(){
-   
+ clearCart() {
     this.cartService.clearCart();
     window.alert('Your products has been deleated from the cart!');
     this.items = this.cartService.getItems();
-     }
-items;
-checkoutForm;
+ }
+    items;
+    checkoutForm;
 
 constructor(
     private cartService: CartService,
@@ -28,8 +27,6 @@ constructor(
 
   ngOnInit() {
     this.items = this.cartService.getItems();
-
-  
   }
   onSubmit(customerData) {
     // Process checkout data here

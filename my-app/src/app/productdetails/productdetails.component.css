@@ -1,6 +1,6 @@
 .main_image{
     text-align: center;
-    margin-top: 7%;
+    margin-top: 1%;
     width: 370px;
     height: 460px;
     margin-left: 5%;
@@ -12,7 +12,7 @@
     
 }
 .product_name{
-    margin-top: -38%;
+    margin-top: -37%;
     margin-left: 4.8%;
     position: absolute;
    font-size: 50px;
@@ -23,14 +23,20 @@
 
 .product_description{
     margin-left: 35%;
+    height: 60%;
+    
 }
 
 #btn_back{
+    padding-left: 10px;
+    width: 4%;
+    height: 3%;
     margin-top: 1%;
     background-color:#8b71cf ;
     border-radius: 5px;
 }
 #word_back{
+   
     color: white;
     text-decoration: none;
 }
@@ -40,21 +46,21 @@
     background-color: #f7c745;
     color: black;
     font-size: 20px;
-    
+    padding-left: 15px;
     width: 5%;
     border-radius: 20px;
     
 }
 .product_block{
     margin-left: 35%;
-    margin-top: -30%;
+    margin-top: -33%;
  
 }
 .product_details{
     color: black;
 }
 .product_block_2{
-  margin-top: -11.3%;
+  margin-top: -6.7%;
     margin-left: 50%;
     color: black;
 }
@@ -74,10 +80,10 @@ margin-left: 35%;
     margin-left: 35%;
 }
 #screen2{
-    margin-top: -11.7%;
-    margin-left: 56%;
+    margin-top: -12.36%;
+    margin-left: 56.6%;
 }
 #screen3{
-    margin-top: -11.7%;
-    margin-left: 77%;
+    margin-top: -12.36%;
+    margin-left: 78.2%;
 }
