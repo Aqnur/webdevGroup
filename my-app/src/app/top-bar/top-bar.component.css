@@ -5,3 +5,98 @@ Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at http://angular.io/license
 */
+.login {
+    width: 70%;
+    height: 100%;
+    float: left;
+  }
+  
+  .sign_up {
+    margin-left: 130px;
+    font-size: 11px;
+    color: black;
+  }
+  
+  .sign_up:hover {
+    color: #000;
+  }
+  
+  .sign {
+    position: relative;
+   float: left;
+    width: 200px;
+    height: 20px;
+    margin-left: 45%;
+    margin-top: -1cm;
+  }
+  .logout{
+ 
+
+    position: absolute;
+  
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-left: -6.2%;
+    margin-top: -1%;
+    background-color: royalblue;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .sign_button {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 10%;
+    background-color: royalblue;
+    color: white;
+    border-radius: 7px;
+  }
+  
+  .sign_button a, .logout a {
+    color: black;
+    font-size: 14px;
+  }
+  
+  .sign_button a:hover, .logout a:hover {
+    color: black;
+  }
+
+  .top {
+    
+    width: 100%;
+    display: flex;
+  
+  }
+  .logo_image {
+    margin-top: -7%;
+    margin-left: 30%;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box; /*рассчет ширины элемента*/
+    justify-content: start;
+  }
+/* Fancy Button */
+.fancy-button {
+  background-color: white;
+  color: #916dd5;
+  display: flex;
+  
+}
+
+.fancy-button i.material-icons {
+  color: #916dd5;
+  padding-right: 5px;
+  justify-content: end;
+
+}
+.cart{
+  margin-top: -3%;
+  position: absolute;
+  margin-left: 90%;
+
+}

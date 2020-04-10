@@ -1,11 +1,31 @@
+
+<!-- 
 <a [routerLink]="['/']">
   <h1>GabeStore</h1>
 </a>
-
-<a [routerLink]="['/cart']" class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>
-
-<!-- 
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
 -->
+<div class="top">
+  <a [routerLink]="['/']" ><img class="logo_image"src="assets/logo.png" alt="Logo" ></a>
+</div>
+<div class="cart">
+<a style="background-color: #f7da70;" [routerLink]="['/cart']" class="button fancy-button"><i style="background-color: #f7da70;" class="material-icons">shopping_cart</i>Checkout</a>
+</div>
+
+<div class="sign" *ngIf="!isLogged">
+  <div class="sign_button">
+    <a href="/login">Log in</a>
+  </div>
+  <div class="sign_button">
+    <a href="/signup">Sign up</a>
+  </div>
+
+</div>
+
+<div class="sign_out" *ngIf="isLogged">
+  <div class="logout">
+    <a href="/" (click)="logout()">Log out</a>
+  </div>
+</div>
+
+
+

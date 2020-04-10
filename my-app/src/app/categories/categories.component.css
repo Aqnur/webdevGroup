@@ -1,3 +1,7 @@
+li {
+  display: inline-flex;
+
+}
 img {
   width:150px;
   height: 180px;
@@ -26,27 +30,36 @@ padding-left: 2%;
 margin-top: 1%;
 
 }
-button{
-  background-color: orange;
-  
-}
-
 nav a {
-  padding: 5px 10px;
+
+  padding: 8.3px 12px;
+padding-left: 40px;
+padding-right: 1px;
   text-decoration: none;
+  font-size: 20px;
   margin-top: 10px;
   display: inline-block;
-  background-color: #eee;
+  background-color: rgb(240, 220, 108);
   border-radius: 4px;
   width: 100%;
+  margin-left:100px;
 }
 nav a:visited, a:link {
-  color: #607D8B;
+  color: #000000;
+  font-size: 30px;
 }
 nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
+  color: black;
+  background-color: #f7da70;
+  font-weight: 900;
+  font-size: 30px;
+
 }
 nav a.active {
   color: #039be5;
+ 
+}
+.categories-style{
+  margin-top: -13.55%;
+  margin-left: 23%;
 }
