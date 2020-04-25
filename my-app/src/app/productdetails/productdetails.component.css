@@ -9,7 +9,7 @@
     padding-top: 10px;
     width: 100%;
     height: 100%;
-    
+
 }
 .product_name{
     margin-top: -37%;
@@ -24,7 +24,7 @@
 .product_description{
     margin-left: 35%;
     height: 60%;
-    
+
 }
 
 #btn_back{
@@ -36,7 +36,7 @@
     border-radius: 5px;
 }
 #word_back{
-   
+
     color: white;
     text-decoration: none;
 }
@@ -49,12 +49,12 @@
     padding-left: 15px;
     width: 5%;
     border-radius: 20px;
-    
+
 }
 .product_block{
     margin-left: 35%;
     margin-top: -33%;
- 
+
 }
 .product_details{
     color: black;

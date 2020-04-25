@@ -1,4 +1,3 @@
-
 export interface IUser {
   id: number;
   username: string;
@@ -7,7 +6,6 @@ export interface IUser {
   email: string;
   is_admin: boolean;
 }
-
 
 export interface IAuthResponse {
   token: string;

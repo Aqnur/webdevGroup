@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84e59fde-b44f-462b-bbfd-26dec94d8bc2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aCwQVzoGWtStv9eXk1DvYJNRbf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../webDevGroup/webDevGroup/my-app" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\aknur\Desktop\angFront\front\my-app\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aknur\Desktop\angFront\front\my-app\src\app\services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aknur\Desktop\angFront\front\my-app\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (front)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (front)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84e59fde-b44f-462b-bbfd-26dec94d8bc2" name="Default Changelist" comment="" />
+      <created>1586252867510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586252867510</updated>
+      <workItem from="1586252869542" duration="10935000" />
+      <workItem from="1586271144989" duration="4046000" />
+      <workItem from="1586350508921" duration="1210000" />
+      <workItem from="1586351798815" duration="5012000" />
+      <workItem from="1586360147968" duration="4058000" />
+      <workItem from="1586364378630" duration="95000" />
+      <workItem from="1586364568212" duration="21000" />
+      <workItem from="1586424898822" duration="166000" />
+      <workItem from="1586425191463" duration="5011000" />
+      <workItem from="1586430932453" duration="3130000" />
+      <workItem from="1586442440911" duration="2361000" />
+      <workItem from="1586484611275" duration="1824000" />
+      <workItem from="1586580710428" duration="275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="139" key="#Angular_CLI_Server" timestamp="1586351914686">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="499" y="139" key="#Angular_CLI_Server/0.0.1536.821@0.0.1536.821" timestamp="1586351914686" />
+    <state x="406" y="10" key="CommitChangelistDialog2" timestamp="1586261547780">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="406" y="10" key="CommitChangelistDialog2/0.0.1536.821@0.0.1536.821" timestamp="1586261547780" />
+    <state x="549" y="169" key="FileChooserDialogImpl" timestamp="1586580999655">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state x="549" y="169" key="FileChooserDialogImpl/0.0.1536.821@0.0.1536.821" timestamp="1586580999655" />
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom" timestamp="1586581002722">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.bottom/0.0.1536.821@0.0.1536.821" timestamp="1586581002722" />
+    <state width="1515" height="209" key="GridCell.Tab.0.center" timestamp="1586581002722">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.center/0.0.1536.821@0.0.1536.821" timestamp="1586581002722" />
+    <state width="1515" height="209" key="GridCell.Tab.0.left" timestamp="1586581002722">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.left/0.0.1536.821@0.0.1536.821" timestamp="1586581002722" />
+    <state width="1515" height="209" key="GridCell.Tab.0.right" timestamp="1586581002722">
+      <screen x="0" y="0" width="1536" height="821" />
+    </state>
+    <state width="1515" height="209" key="GridCell.Tab.0.right/0.0.1536.821@0.0.1536.821" timestamp="1586581002722" />
+  </component>
+</project>
