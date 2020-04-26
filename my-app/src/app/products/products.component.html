@@ -2,32 +2,31 @@
 
 
   <div  id="products_word" *ngFor="let product of products">
-    {{product.categoryName}}
+    {{product.category}}
   </div>
- 
+
 
 <div class="products_block">
 
   <div *ngFor="let product of products">
-   
+
   <div class="product_div">
 
- 
   <div class="main_image">
 <a routerLink="/products/{{product.id}}"><img  src="{{product.images}}"></a>
 </div>
 
 
-<button id="price">{{product.price}}</button> 
+<button id="price">{{product.price}}</button>
 
-<button id="share_button"> 
+<button id="share_button">
   <a  href = "https://api.whatsapp.com/send?phone=77079344712&text={{product.name     }}        {{product.originalLink}}"  style="color: black"> Share</a>
 
 </button>
 </div>
 
 
-</div>  
+</div>
 </div>
 
 </div>

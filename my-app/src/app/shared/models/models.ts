@@ -1,3 +1,5 @@
+import {Category} from '../../category';
+
 export interface IUser {
   id: number;
   username: string;
@@ -21,18 +23,19 @@ export interface IReview {
 }
 export interface IProduct{
   id: number;
-  categoryId:number;
+  categoryId: number;
   name: string;
   price: string;
   description: string;
-  rating:any;
-  originalLink:string;
-  images:any;
-  screen1:string;
-  screen2:string;
-  screen3:string;
+  rating: any;
+  originalLink: string;
+  images: any;
+  screen1: string;
+  screen2: string;
+  screen3: string;
   language: string;
   release: string;
   publisher: string;
   developer: string;
+  category: Category;
 }
