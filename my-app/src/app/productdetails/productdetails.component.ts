@@ -4,6 +4,8 @@ import { Location } from '@angular/common';
 import {ProductService} from '../product.service';
 import {Product} from '../product';
 import {Category} from '../category'
+import {IReview,IProduct } from '../shared/models/models';
+
 import { CartService } from '../cart.service';
 import { ProviderService } from '../shared/services/provider.service';
 
@@ -15,7 +17,12 @@ import { ProviderService } from '../shared/services/provider.service';
 export class ProductdetailsComponent implements OnInit {
   public isLogged = false;
   categories: Category[];
-  product: Product;
+  
+
+  public text = '';
+  public reviews: IReview[] = [];
+
+  public product: IProduct;
   constructor(
     private location: Location,
     private route: ActivatedRoute,
@@ -24,7 +31,7 @@ export class ProductdetailsComponent implements OnInit {
     private provider: ProviderService
     ){ }
     addToCart(product) {
-      if (this.isLogged){
+      if (this.isLogged) {
       this.cartService.addToCart(product);
       }
       window.alert('Your product has been added to the cart!');
@@ -35,8 +42,7 @@ export class ProductdetailsComponent implements OnInit {
       this.isLogged = true;
     }
     this.getProduct();
-    this.addview();
- 
+    this.getReviews();
   }
 
   getProduct(): void {
@@ -44,10 +50,23 @@ export class ProductdetailsComponent implements OnInit {
     this.productService.getProduct(id)
       .subscribe(tovar => this.product = tovar);
   }
-  addview(): void {
-    const id = +this.route.snapshot.paramMap.get('id');
-    this.productService.addview(id)
+  getReviews() {
+    const productId = +this.route.snapshot.paramMap.get('id');
+    this.provider.getReviews(productId).then(res => {
+      this.reviews = res;
+    });
   }
- 
+  sendReview() {
+    if (this.isLogged && this.text) {
+      this.provider.postReview(this.product, this.text).then(res => {
+        this.text = '';
+        this.reviews.push(res);
+      });
+    }
+  }
 
-}
+
+
+  }
+
+

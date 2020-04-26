@@ -34,9 +34,7 @@ export class ProductsComponent implements OnInit {
     this.productService.getProductofC(id)
       .subscribe(products => this.products = products);
   }
+}
 
-
-  }
-  
 
 
