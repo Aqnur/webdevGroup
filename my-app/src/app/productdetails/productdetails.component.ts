@@ -2,9 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import {ProductService} from '../product.service';
-import {Product} from '../product';
 import {Category} from '../category'
-import {IReview,IProduct } from '../shared/models/models';
+import {IReview, IProduct } from '../shared/models/models';
 
 import { CartService } from '../cart.service';
 import { ProviderService } from '../shared/services/provider.service';
@@ -17,12 +16,13 @@ import { ProviderService } from '../shared/services/provider.service';
 export class ProductdetailsComponent implements OnInit {
   public isLogged = false;
   categories: Category[];
-  
+
 
   public text = '';
   public reviews: IReview[] = [];
 
   public product: IProduct;
+
   constructor(
     private location: Location,
     private route: ActivatedRoute,
