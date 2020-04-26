@@ -9,7 +9,7 @@
     padding-top: 10px;
     width: 100%;
     height: 100%;
-    
+
 }
 .product_name{
     margin-top: -37%;
@@ -24,7 +24,7 @@
 .product_description{
     margin-left: 35%;
     height: 60%;
-    
+
 }
 
 #btn_back{
@@ -36,7 +36,7 @@
     border-radius: 5px;
 }
 #word_back{
-   
+
     color: white;
     text-decoration: none;
 }
@@ -49,12 +49,12 @@
     padding-left: 15px;
     width: 5%;
     border-radius: 20px;
-    
+
 }
 .product_block{
     margin-left: 35%;
     margin-top: -33%;
- 
+
 }
 .product_details{
     color: black;
@@ -87,3 +87,95 @@ margin-left: 35%;
     margin-top: -12.36%;
     margin-left: 78.2%;
 }
+#head2 {
+    font-family: 'Teko', serif;
+    text-align: center;
+    margin-top:27px;
+    font-size: 32px;
+    margin-left: -85%;
+  }
+  #send a:hover{
+    color: red;
+  }
+  #write {
+    width: 85%;
+    height: 12%;
+    font-size: 16px;
+    margin-left: 1cm;
+  }
+  .review{
+    margin-left: 0.7cm;
+    margin-right: 0.3cm;
+    margin-bottom: 4px;
+  
+  }
+  .menu {
+    position: absolute;
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    border-radius: 7px;
+  }
+  
+  .menu a {
+    color: black;
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  .menu a:hover {
+    color: white;
+  }
+  #image{
+    width: 100%;
+  }
+  
+  table {
+    width: 350px;
+  }
+  tr {
+    width: 300px;
+  }
+  #second {
+    margin-left: 25px;
+  }
+  
+  textarea {
+  
+    border-radius: 4%;
+    border: 2px solid black;
+    margin-left: 10px;
+    max-width: 400px;
+    
+  }
+  
+  textarea:focus {
+    border: 2px solid yellow;
+  }
+  
+  #send {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #222;
+    padding: 8px 20px;
+    outline: none;
+    color: white;
+    border-radius: 16px;
+    transition: 0.25s;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 3%;
+  }
+  
+  #send:hover {
+    background: black;
+  }
+  
+  .content {
+    margin-left: 20px;
+  }
