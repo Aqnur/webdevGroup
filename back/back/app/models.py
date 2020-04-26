@@ -9,6 +9,10 @@ class Category(models.Model):
   def __str__(self):
     return '{}: {}'.format(self.id, self.name)
 
+class ProductManager(models.Manager):
+  def for_user(self, user):
+      return self.filter(user=user)
+
 class Product(models.Model):
   name = models.CharField(max_length=200)
 
@@ -27,12 +31,11 @@ class Product(models.Model):
   category = models.ForeignKey(Category, on_delete=models.CASCADE)
   count = models.IntegerField(default=1)
 
+  objects = ProductManager()
+
   def __str__(self):
     return '{}: {}'.format(self.id, self.name)
 
-class ProductManager(models.Manager):
-  def for_user(self, user):
-      return self.filter(user=user)
 
 
 class Review(models.Model):
