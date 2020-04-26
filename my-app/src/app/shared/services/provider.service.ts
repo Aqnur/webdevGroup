@@ -11,9 +11,7 @@ export class ProviderService extends MainService {
   constructor(http: HttpClient) {
     super(http);
   }
- 
 
- 
   auth(login: any, pass: any): Promise<IAuthResponse> {
     return this.post('http://127.0.0.1:8000/api/login/', {
       username: login,

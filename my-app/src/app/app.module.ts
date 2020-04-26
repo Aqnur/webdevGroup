@@ -7,10 +7,6 @@ import { AppComponent } from './app.component';
 import { HTTP_INTERCEPTORS} from '@angular/common/http';
 import { ProviderService } from './shared/services/provider.service';
 import { AuthInterceptor } from './AuthInterceptor';
-
-
-
-
 import { CategoriesComponent } from './categories/categories.component';
 import { ProductsComponent } from './products/products.component';
 import { TopBarComponent } from './top-bar/top-bar.component';

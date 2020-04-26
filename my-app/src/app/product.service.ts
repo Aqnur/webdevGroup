@@ -4,6 +4,7 @@ import { PRODUCTS } from './products';
 import { Product } from './product';
 import { Category } from './category';
 import { CATEGORIES } from './categories';
+import {HttpClient} from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -11,25 +12,29 @@ import { CATEGORIES } from './categories';
 export class ProductService {
   categories: Category[];
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
- 
+  BASE_URL = 'http://127.0.0.1:8000';
+
   getProduct(id): Observable<Product> {
-    return of(PRODUCTS.find(product => product.id === id));
+    return this.http.get<Product>(`${this.BASE_URL}/api/products/${id}/`);
+    // return of(PRODUCTS.find(product => product.id === id));
   }
-  getCategory(): Observable<Category[]> {
-    return of(CATEGORIES);
+
+  getCategories(): Observable<Category[]> {
+    return this.http.get<Category[]>(`${this.BASE_URL}/api/categories/`);
   }
- 
+
+  getCategory(id): Observable<Category> {
+    return this.http.get<Category>(`${this.BASE_URL}/api/categories/${id}/`);
+  }
+
   getProductofC(categoryId: number): Observable<Product[]> {
-    return of(PRODUCTS.filter(product => product.categoryId === categoryId));
+    return this.http.get<Product[]>(`${this.BASE_URL}/api/categories/${categoryId}/products`);
   }
 
-  addview(id:number):Observable<Product> {
+  addview(id: number): Observable<Product> {
     return of(PRODUCTS.find(product => product.id === id));
-    
   }
-
-
 }
 

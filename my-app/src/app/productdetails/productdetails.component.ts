@@ -24,7 +24,7 @@ export class ProductdetailsComponent implements OnInit {
     private provider: ProviderService
     ){ }
     addToCart(product) {
-      if (this.isLogged){
+      if (this.isLogged) {
       this.cartService.addToCart(product);
       }
       window.alert('Your product has been added to the cart!');
@@ -35,8 +35,6 @@ export class ProductdetailsComponent implements OnInit {
       this.isLogged = true;
     }
     this.getProduct();
-    this.addview();
- 
   }
 
   getProduct(): void {
@@ -44,10 +42,5 @@ export class ProductdetailsComponent implements OnInit {
     this.productService.getProduct(id)
       .subscribe(tovar => this.product = tovar);
   }
-  addview(): void {
-    const id = +this.route.snapshot.paramMap.get('id');
-    this.productService.addview(id)
-  }
- 
 
 }
